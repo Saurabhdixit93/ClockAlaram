@@ -60,6 +60,7 @@
     min-height: 100vh;
     background-color: #274d6d;
     border: #01070d 2px solid;
+    box-shadow: 1px 1px 20px 4px #3500ff6e;
   }
   /* Currnt time Tag */
   .currentTime{
