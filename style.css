@@ -45,7 +45,7 @@
   
   /* Main Containt Style */
   .main-container {
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
     justify-content: center;
     background-image: url("image/backgroundpng.png");
@@ -59,6 +59,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: #274d6d;
+    border: #01070d 2px solid;
   }
   /* Currnt time Tag */
   .currentTime{
