@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Alarm Clock" content="Alarm Clock for Coding Ninjas Skill Test" />
+    
+    <title>Alarm Clock</title>
+
+    <!--Favicon-->
+
+    <link rel = "icon" href="image/Fevicon.png" />
+    <!-- Stylesheet-->
+
+    <link rel = "stylesheet" href = "style.css" />
+
+</head>
+
+<body>
+    <!-- Title Of Product -->
+    <div class= "page-title">
+      <h1>MY ALARM CLOCK ⏰ </h1>
+    </div>
+
+    <!-- Main-->
+    <main>
+
+        <!-- Alarm clock Container -->
+
+    <div class="main-container d-flex">
+      <div class="clock-container d-flex">
+        <!-- Live time  -->
+        <div class="mb currentTime">CURRENT  &nbsp; TIME </div>
+        <div class="current-time mb" id= "current-time">_ : _ : _ </div>
+       <!-- Alarm Form -->
+        <form class="alarm-form d-flex mb">
+          <div>
+            <!-- time Setting For Alarm -->
+          <select name="hours" id="hours" required></select>
+
+          <select required name="minutes" id="minutes"></select>
+
+          <select required name="seconds" id="seconds"></select>
+          <select required name="am-pm" id="am-pm">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+          </div>
+          <!-- Alarm Set Button -->
+          <button class="btn submit-button" id="submitButton" type="submit">Set Alarm</button>
+        </form>
+        <!--  All Sets Alarm Showing Here -->
+        <div class="set-alarm-container">
+          <div class="set-alarm-container-title mb">SET ALARMS</div>
+          <div class="alarms-container" id= "alarms-container"></div>
+        </div>
+      </div>
+    </div>
+</main>
+<!-- Footer Details -->
+<footer>
+    <div class="footer">
+        <p class="fthead">
+            Designed By Saurabh Dixit @ All right reserved 2022
+        </p>
+    </div>
+</footer>
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+  </body>
+</html>
+</html>
