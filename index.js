@@ -36,10 +36,10 @@ function dropDownMenu(start, end, element) {
 function getCurrentTime() {
   let time = new Date();
   time = time.toLocaleTimeString("en-US", {
-    hour: "numeric",
+    hour  : "numeric",
     minute: "numeric",
     second: "numeric",
-    hour12: true,
+    hour12:  true,
   });
   currentTime.innerHTML = time;
 
@@ -68,11 +68,16 @@ function convertToTime(hour, minute, second, amPm) {
   return `${parseInt(hour)}:${minute}:${second} ${amPm}`;
 }
 
+// Alarm Ringtone And Set
+let stop,
+ringtone = new Audio("./image/tone.mp3");
 
 function setAlarm(time, fetching = false) {
   const alarm = setInterval(() => {
     if (time === getCurrentTime()) {
-      alert("Alarm Ringing");
+      ringtone.play();
+      ringtone.loop = true;
+      alert("Alarm Ringing.......");
     }
     console.log("running");
   }, 500);
@@ -82,6 +87,17 @@ function setAlarm(time, fetching = false) {
     saveAlarm(time);
   }
 }
+// Stop Alarm Audio
+window.addEventListener("keydown",s=> {
+  ringtone.pause();
+  alert("Alarm Stopped.....")
+});
+
+
+
+
+
+
 
 // Alarms set by user Dislayed in HTML
 function addAlaramToDom(time, intervalId) {
@@ -125,6 +141,7 @@ function fetchAlarm() {
 
 
 function deleteAlarm(event, time, intervalId) {
+ 
   const self = event.target;
 
   clearInterval(intervalId);
