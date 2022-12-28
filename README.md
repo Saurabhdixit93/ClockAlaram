@@ -50,9 +50,9 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
 <strong>Connect With Me @</strong>
 
 <p align="center">
-<a href="https://github.com/Saurabhdixit93" target ="blank">GitHub</a>
-<a href="https://www.linkedin.com/in/saurabh-dixit-01b675215" target ="blank">LinkedIn</a>
-<a href="mailto:smartds2550@gmail.com" target ="blank" >Email</a>
+<a href="https://github.com/Saurabhdixit93" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/saurabh-dixit-01b675215" target="_blank">LinkedIn</a>
+<a href="mailto:smartds2550@gmail.com" target="_blank" >Email</a>
 
 </p>
 
