@@ -43,7 +43,7 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
 # LINKS
 
  <!-- Page demo--> 
- <a href = "https://saurabhdixit93.github.io/ClockAlaram/"> <b>LIVE PRODUCT</b> </a>  &nbsp; <!-- repositary--> <a href = "https://saurabhdixit93.github.io/ClockAlaram/"> <b>CODE</b> </a> <br> 
+ <a href = "https://saurabhdixit93.github.io/ClockAlaram/" target="_blank" > <b>LIVE PRODUCT</b> </a>  &nbsp; <!-- repositary--> <a href = "https://saurabhdixit93.github.io/ClockAlaram/" target="_blank"> <b>CODE</b> </a> <br> 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 <br>
