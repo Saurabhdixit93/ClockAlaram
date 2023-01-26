@@ -5,6 +5,14 @@
 <li> It is developed to create a soothing Experience with powerful features and clean interface.</li>
 <br>
 
+
+#DEMO
+<br>
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/86460997/214771189-ed36d8e6-ca65-4496-a287-1b2d53ed69ef.gif)
+
+
+
 # Problem Statement
 
 Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
