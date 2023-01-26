@@ -9,7 +9,10 @@
 # DEMO
 <br>
 
-![Gif](https://user-images.githubusercontent.com/86460997/214771189-ed36d8e6-ca65-4496-a287-1b2d53ed69ef.gif)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/86460997/214771189-ed36d8e6-ca65-4496-a287-1b2d53ed69ef.gif">
+</p>
+
 
 
 
