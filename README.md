@@ -34,7 +34,9 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
 
 # PRODUCT DEMO
 
-![Alarm-Clock] <hr>
+![Alarm-Clock] 
+
+<hr>
 ![image](https://user-images.githubusercontent.com/86460997/209670687-29872ef1-b548-416f-8106-2149aa24c0f9.png)
 
 
